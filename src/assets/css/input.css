@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@theme {
+  --color-primary-100: #dfd1e8;
+  --color-primary-200: #bfa4d1;
+  --color-primary-300: #a076bb;
+  --color-primary-400: #8049a4;
+  --color-primary-500: #601b8d;
+  --color-primary-600: #4d1671;
+  --color-primary-700: #3a1055;
+  --color-primary-800: #260b38;
+  --color-primary-900: #13051c;
+  --color-white: #fefefe;
+  --color-black: #141414;
+}
+body {
+  @apply tracking-wider;
+}
+.nav-link {
+  @apply text-lg font-semibold duration-300;
+}
+.nav-link:hover {
+  @apply text-white;
+}
